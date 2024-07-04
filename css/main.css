@@ -177,36 +177,3 @@ line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
-.nav-link{
-    color: rebeccapurple;
-}
-.header-link{
-    color: pink;
-}
-.hero-title{
-    color: #2196F3;
-}
-.hero-button{
-    color: red;
-}
-.advantages-title {
-    color: yellow;
-}
-.advantages-tekst {
-    color: yellowgreen;
-}
-.work-title {
-    color: blue;
-}
-.team-title {
-    color: blueviolet;
-}
-.team-name {
-    color: chartreuse;
-}
-.team-title {
-    color: crimson;
-}
-.hero-title {
-    color: coral;
-}
