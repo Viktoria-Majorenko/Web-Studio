@@ -1,3 +1,25 @@
+.container{
+    width: 1170;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid purple;
+}
+.header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.hero{
+    padding-top: 53px;
+    padding-bottom: 73px;
+}
+
+.info{
+    padding-top: 92px;
+    padding-bottom: 35px;
+}
+
 :root {
 --color-akcent:#2196F3;
 --logo-color:#000;
