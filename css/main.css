@@ -1,5 +1,5 @@
 .container{
-    width: 1170;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -7,17 +7,22 @@
     outline: 1px solid purple;
 }
 .header{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .hero{
-    padding-top: 53px;
-    padding-bottom: 73px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .info{
-    padding-top: 92px;
-    padding-bottom: 35px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.footer {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 :root {
