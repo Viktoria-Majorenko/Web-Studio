@@ -212,7 +212,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-margin-bottom: 94px;
+margin-bottom: 50px;
 }
 .team-name{
 color: var(--tekst-color);
@@ -235,7 +235,7 @@ padding-bottom: 124px;
 
 .team-list{
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .footer{
