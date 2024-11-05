@@ -1,3 +1,21 @@
+:root {
+    --color-akcent:#2196F3;
+    --logo-color:#000;
+    --tekst-color:#212121;
+    --add-color:#757575;
+    --title-color:#FFF;
+    --team-beground:#F5F4FA;
+    --beground-foter:#2F303A;
+    --foter-number:rgba(255, 255, 255, 0.60);
+}  
+    
+
+body{
+    font-family: "Roboto";
+    
+}
+
+
 .container{
     width: 1200px;
     margin-right: auto;
@@ -17,7 +35,6 @@
     margin-left: auto;
     
 }
-
 
 
 .header-box{
@@ -48,17 +65,22 @@
     line-height: 1.14;
     letter-spacing: 0.28px;
     }
-    .header-link:hover{
+
+
+.header-link:hover{
         color: var(--color-akcent);
-    }
-    .nav-link{
+}
+
+
+
+.nav-link{
         color: var(--tekst-color);
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.28px;
-        }
+}
         
 .nav-list{
         display: flex;
@@ -69,7 +91,25 @@
     color: var(--color-akcent)
 }
         
+.card{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
+.card-list{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 6px 22px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+.geoodes-img{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .info{
     padding-top: 94px;
@@ -81,10 +121,6 @@
     padding-bottom: 15 px;
 }
 
-.advantages{
-    padding-top: 94px;
-    padding-bottom: 94px;  
-}
 
 .work{
     padding-top: 94px;
@@ -96,22 +132,6 @@
     padding-bottom: 94px; 
 }
 
-:root {
---color-akcent:#2196F3;
---logo-color:#000;
---tekst-color:#212121;
---add-color:#757575;
---title-color:#FFF;
---team-beground:#F5F4FA;
---beground-foter:#2F303A;
---foter-number:rgba(255, 255, 255, 0.60);
-
-
-}
-body{
-font-family: "Roboto";
-
-}
 
 
 .logo-web{
@@ -163,6 +183,7 @@ padding-right: 32px;
 .advantages{
     padding-top: 94px;
 }
+
 .advantages-title{
 color: var(--tekst-color);
 font-size: 14px;
@@ -205,6 +226,13 @@ letter-spacing: 1.08px;
 background-color: var(--team-beground);
 }
 
+.team-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--title-color);
+}
+
+
 .team-title{
 color: var(--tekst-color);
 text-align: center;
@@ -221,6 +249,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
+margin-bottom: 10px;
 }
 
 .team-text{
@@ -229,8 +258,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
-letter-spacing: 0.48px; 
-padding-bottom: 124px;   
+letter-spacing: 0.48px;  
 }
 
 .team-list{
@@ -260,7 +288,15 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+margin-bottom: 20px;
+display: inline-block;
+}
 
+.footer-list{
+    margin-top: 9px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
 }
 
 .adres-link{
