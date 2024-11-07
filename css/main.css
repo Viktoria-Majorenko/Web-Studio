@@ -20,7 +20,6 @@ body{
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
     padding-right: 15px;
     outline: 1px solid purple;
 
@@ -109,8 +108,16 @@ body{
 .geoodes-list{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+   
+}
+
+.geoodes-img{
+    margin-left: 30x;
     
 }
+
+
 
 .info{
     padding-top: 94px;
