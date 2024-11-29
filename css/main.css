@@ -260,7 +260,14 @@ letter-spacing: 0.42px;
     gap: 30px;
 }
 
-
+.advantages-item ::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 30px;
+}
 
 
 .work-title{
