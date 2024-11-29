@@ -260,13 +260,16 @@ letter-spacing: 0.42px;
     gap: 30px;
 }
 
-.advantages-item ::before{
+.advantages-item::before{
     content: "";
     display: block;
-    width: 200px;
-    height: 100px;
-    background-color: gray;
-    border-radius: 30px;
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-color:var(--team-beground) ;
+    margin-bottom: 30px;
+    
 }
 
 
