@@ -265,11 +265,23 @@ letter-spacing: 0.42px;
     display: block;
     width: 270px;
     height: 120px;
-    flex-shrink: 0;
     border-radius: 4px;
     background-color:var(--team-beground) ;
     margin-bottom: 30px;
-    
+    background-image: url(../photo/antena.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages-item:nth-child(2)::before{
+    background-image: url(../photo/ckolock.png);
+}
+
+.advantages-item:nth-child(3)::before{
+    background-image: url(../photo/diagram.png);
+}
+
+.advantages-item:nth-child(4)::before{
+    background-image: url(../photo/kosmos.png);
 }
 
 
