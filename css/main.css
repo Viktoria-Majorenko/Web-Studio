@@ -104,6 +104,14 @@ body{
     border-radius: 4px;
 }
 
+.card-list:hover{
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+
+/* material shadow v1 */
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
 .btn-btn{
     padding: 6px 22px;
     color: var(--tekst-color);
@@ -134,6 +142,12 @@ border: none;
     flex-wrap: wrap;
     gap: 30px;
    
+}
+
+.geoodes-list:hover{
+border: 1px solid #EEE;
+background: #FFF;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .geoodes-item{
@@ -204,7 +218,10 @@ letter-spacing: 0.78px;
     background-color: var(--beground-foter);
     text-align: center;
     gap: 20px;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40))
 }
+
+
 
 .hero-title{
     color: var(--title-color);
@@ -232,6 +249,10 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 32px;
 padding-right: 32px;
+
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .advantages{
@@ -343,6 +364,12 @@ letter-spacing: 0.48px;
 .team-list{
     display: flex;
     gap: 30px;
+
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+
+/* material shadow v1 */
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 
