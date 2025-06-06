@@ -407,6 +407,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition-duration: 3000ms;
     transition-delay: 200ms; 
     transition-timing-function: easy-out;
+    transition: ease-in-out;
 }
 
 .advantages{
@@ -765,6 +766,8 @@ display: inline-block;
     transition-duration: 3000ms;
     transition-delay: 200ms;
     transition-timing-function: easy-out;
+    transition: ease-in-out;
+
 }
 
 .footer-plem{
@@ -1003,4 +1006,5 @@ letter-spacing: 0.42px;
     transition-duration: 3000ms;
     transition-delay: 200ms;
     transition-timing-function: easy-out;
+    transition: ease-in;
 }
