@@ -24,8 +24,6 @@ body{
 }
 
 
-
-
 .link{
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -168,6 +166,7 @@ body{
     color: var(--color-akcent);
 }
 
+
 .card{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -184,7 +183,6 @@ body{
 .card-item{
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 
@@ -192,18 +190,19 @@ body{
     padding: 6px 22px;
     color: var(--tekst-color);
     text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.62; /* 162.5% */
-letter-spacing: 0.48px;
-border-radius: 4px;
-background: #F5F4FA;
-border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    border: none;
 }
 
 .btn-btn:hover{
     color: var(--title-color);
     background-color: var(--color-akcent);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 .geo{
@@ -220,7 +219,7 @@ border: none;
    
 }
 
-.geoodes-list:hover{
+.geoodes-item:hover{
 border: 1px solid #EEE;
 background: #FFF;
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -233,7 +232,6 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 .geoodes-img{
@@ -246,19 +244,24 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 }
 
 .geoodes-tek{
-    color: #ffffff;
-    background-color: rgba(28, 95, 230, 0.744);
-    font-size: 20px;
+    background: rgba(33, 150, 243, 0.90);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
     opacity: 0;
+
+
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px;
 }
 
 
@@ -401,14 +404,6 @@ background: #2196F3;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.hero-button:hover{
-    background-color: rgb(72, 43, 100);
-    transition-property: background-color;
-    transition-duration: 3000ms;
-    transition-delay: 200ms; 
-    transition-timing-function: easy-out;
-    transition: ease-in-out;
-}
 
 .advantages{
     padding-top: 94px;
@@ -547,6 +542,7 @@ letter-spacing: 0.48px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+
 }
 
 .team-items{
@@ -570,6 +566,10 @@ letter-spacing: 0.48px;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+}
+
+.team-ikon{
+
 }
 
 .team-link:hover{
@@ -760,15 +760,7 @@ display: inline-block;
     gap: 10px;
 }
 
-.footer-button:hover{
-    background-color: rgb(124, 61, 183);
-    transition-property: background-color;
-    transition-duration: 3000ms;
-    transition-delay: 200ms;
-    transition-timing-function: easy-out;
-    transition: ease-in-out;
 
-}
 
 .footer-plem{
     width: 24px;
@@ -998,13 +990,4 @@ letter-spacing: 0.42px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.model-btn:hover{
-    background-color: rgb(191, 164, 216);
-    transition-property: background-color;
-    transition-duration: 3000ms;
-    transition-delay: 200ms;
-    transition-timing-function: easy-out;
-    transition: ease-in;
 }
