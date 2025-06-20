@@ -218,6 +218,10 @@ body{
     border-radius: 4px;
     background: #F5F4FA;
     border: none;
+
+    transition-property: color , background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -226,10 +230,6 @@ body{
     color: var(--title-color);
     background-color: var(--color-akcent);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-
-    transition-property: color ;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .geo{
@@ -247,8 +247,6 @@ body{
 }
 
 .geoodes-item:hover{
-border: 1px solid #EEE;
-background: #FFF;
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
@@ -259,6 +257,10 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -286,10 +288,14 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
 
     color: #FFF;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px; /* 155.556% */
-letter-spacing: 0.54px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -907,7 +913,13 @@ letter-spacing: 0.42px;
 .model-icon{
     width: 18px;
     height: 18px;
+
+    transition-property: fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .moddel-title{
     color: #212121;
@@ -945,6 +957,10 @@ letter-spacing: 0.42px;
     margin-top: 4px;
     margin-bottom: 10px;
     padding-left: 42px;
+
+    transition-property: outline;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .model-input:hover,
@@ -965,6 +981,10 @@ letter-spacing: 0.42px;
 
     top: 33px;
     left: 15px;
+
+    transition-property: fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobel-comen{
