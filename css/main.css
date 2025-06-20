@@ -37,6 +37,10 @@ body{
     display: inline-block;
     margin-left: 20px;
     transform: rotate(45deg);
+
+    transition-property: opacity;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -97,12 +101,21 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+
+    transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+
 
     .header-img{
         width: 16px;
     height: 12px;
     fill: #757575;
+
+    transition-property: fill ;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .header-item:last-child{
@@ -133,6 +146,10 @@ body{
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.28px;
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -146,6 +163,10 @@ body{
    top: 48px;
    opacity: 0; 
    border-radius: 2px;
+
+   transition-property: opacity;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover::after{
@@ -199,10 +220,16 @@ body{
     border: none;
 }
 
+
+
 .btn-btn:hover{
     color: var(--title-color);
     background-color: var(--color-akcent);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+
+    transition-property: color ;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .geo{
@@ -232,6 +259,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+
 }
 
 .geoodes-img{
@@ -265,11 +293,14 @@ letter-spacing: 0.54px;
 }
 
 
+
+
 .geoodes-over:hover{
     .geoodes-tek{
         opacity: 1;
     }
 }
+
 
 .geoodes-title{
     color: var(--tekst-color);
@@ -560,17 +591,22 @@ letter-spacing: 0.48px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-ikon{
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+
+    transition-property: fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-ikon{
-
-}
 
 .team-link:hover{
     background-color: var(--color-akcent);
@@ -607,6 +643,11 @@ letter-spacing: 0.48px;
     height: 60px;
 
     fill: #AFB1B8;
+
+    transition-property:fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -621,6 +662,10 @@ letter-spacing: 0.48px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition-property: border-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clains-link:hover{
@@ -660,6 +705,10 @@ line-height: 1.38;
 letter-spacing: 0.78px;
 margin-bottom: 20px;
 display: inline-block;
+
+transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list{
@@ -692,6 +741,10 @@ display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
