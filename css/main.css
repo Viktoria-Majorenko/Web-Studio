@@ -230,6 +230,34 @@ body{
     color: var(--title-color);
     background-color: var(--color-akcent);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    animation-name: bttt;
+    animation-duration: 10000ms;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-iteration-count: initial;
+}
+
+@keyframes bttt{
+    0%{
+background-color: rgb(238, 255, 0);
+    }
+
+    25%{
+background-color: rgb(234, 59, 97);
+    }
+
+    50%{
+background-color: rgb(199, 13, 236);
+
+    }
+
+    75%{
+background-color: rgb(57, 244, 125);
+    }
+
+    100%{
+background-color: rgb(74, 172, 233);
+    }
 }
 
 .geo{
@@ -438,6 +466,33 @@ padding-right: 32px;
 border-radius: 4px;
 background: #2196F3;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+animation-name: reee;
+animation-duration: 10000ms;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+animation-iteration-count: initial;
+}
+
+@keyframes reee{
+    0%{
+        background-color: rgb(255, 0, 106);
+    }
+
+    25%{
+        background-color: rgb(0, 255, 255);
+    }  
+
+    50%{
+        background-color: rgb(38, 0, 255);
+    }  
+
+    75%{
+        background-color: rgb(0, 255, 0);
+    }  
+    
+    100%{
+        background-color: rgb(255, 166, 0);
+    }
 }
 
 
