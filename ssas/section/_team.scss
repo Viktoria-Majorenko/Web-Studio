@@ -5,13 +5,13 @@
     .team-box{
         padding-top: 30px;
         padding-bottom: 30px;
-        background-color: var(--title-color);
+        background-color: $title-color;
     }
     
     
     
     .team-title{
-    color: var(--tekst-color);
+    color: $tekst-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -20,7 +20,7 @@
     margin-bottom: 50px;
     }
     .team-name{
-    color: var(--tekst-color);
+    color: $tekst-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -30,7 +30,7 @@
     }
     
     .team-text{
-    color: var(--add-color);
+    color: $add-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -85,7 +85,7 @@
     .team-link:hover{
         background-color: var(--color-akcent);
         .team-ikon{
-            fill: var(--title-color);
+            fill: $title-color;
         }
     }
 

@@ -5,7 +5,7 @@
 }
 
 .work-title{
-    color: var(--tekst-color);
+    color:$tekst-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -24,7 +24,7 @@
     }
     
     .work-text{
-        color: #FFF;
+        color: $title-color;
         text-align: center;
         font-family: Roboto;
         font-size: 14px;

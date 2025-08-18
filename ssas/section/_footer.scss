@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--beground-foter);
+    background-color: $beground-foter;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -10,7 +10,7 @@
 }
 
 .logo-color{
-color: var(--color-akcent);
+color: $color-akcent;
 font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
@@ -19,7 +19,7 @@ letter-spacing: 0.78px;
 }
 
 .footer-logo{
-color: var(--title-color);
+color: $title-color;
 font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
@@ -41,7 +41,7 @@ transition-property: color;
 }
 
 .footer-text{
-    color: #FFF;
+    color: $title-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -57,7 +57,7 @@ transition-property: color;
     width: 44px;
     height: 44px;
 
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: $back-color;
     border-radius: 50%;
     
     display: flex;
@@ -71,14 +71,14 @@ transition-property: color;
 }
 
 .icon-footer:hover{
-    background-color: var(--color-akcent);
+    background-color: $color-akcent;
 }
 
 .foter-social{
     width: 20px;
     height: 20px;
 
-    fill: #FFF;
+    fill: $title-color;
 }
 
 .footer-wrap{
@@ -96,7 +96,7 @@ transition-property: color;
 }
 
 .footer-title{
-    color: #FFF;
+    color: $title-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -114,7 +114,7 @@ transition-property: color;
 }
 
 .footer-button{
-    color: #FFF;
+    color: $title-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -124,7 +124,7 @@ transition-property: color;
     letter-spacing: 0.96px;
 
     border-radius: 4px;
-    background: #2196F3;
+    background: $color-akcent;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
 
