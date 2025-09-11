@@ -1,93 +1,95 @@
 .team{
-    background-color: var(--team-beground);
-    }
-    
-    .team-box{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        background-color: $title-color;
-    }
-    
-    
-    
-    .team-title{
-    color: $tekst-color;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
-    }
-    .team-name{
-    color: $tekst-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.48px;
-    margin-bottom: 10px;
-    }
-    
-    .team-text{
-    color: $add-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.48px;  
-    }
-    
-    .team-list{
-        display: flex;
-        gap: 30px;
-    }
-    
-    .team-item{
-        border-radius: 0px 0px 4px 4px;
-        background: #FFF;
-        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-    
-    }
-    
-    .team-items{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 16px;
-    
-    }
-    
-    .team-link{
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        transition-property: background-color;
-       transition-duration: 250ms;
-       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-ikon{
-        width: 20px;
-        height: 20px;
-        fill: #AFB1B8;
-    
-        transition-property: fill;
-       transition-duration: 250ms;
-       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    
-    .team-link:hover{
-        background-color: var(--color-akcent);
-        .team-ikon{
-            fill: $title-color;
+    background-color: $team-beground;
+
+    &__title{
+        color: $tekst-color;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 1.08px;
+        margin-bottom: 50px;
         }
+
+        &__list{
+            display: flex;
+            gap: 30px;
+        }
+
+        &__item{
+            border-radius: 0px 0px 4px 4px;
+            background: #FFF;
+            box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+        
+        }
+
+        &__box{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: $title-color;
+        }
+
+        &__name{
+            color: $tekst-color;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.18;
+            letter-spacing: 0.48px;
+            margin-bottom: 10px;
+            }
+
+            &__text{
+                color: $add-color;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.18;
+                letter-spacing: 0.48px;  
+                }
+
+                &__items{
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    margin-top: 16px;
+                }
+
+                &__link{
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                
+                    transition-property: background-color;
+                   transition-duration: 250ms;
+                   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+                   &:hover{
+                    background-color: $color-akcent;
+                    .team__ikon{
+                        fill: $title-color;
+                    }
+                }
+                }
+
+
+                &__ikon{
+                    width: 20px;
+                    height: 20px;
+                    fill: $filll-color;
+                
+                    transition-property: fill;
+                   transition-duration: 250ms;
+                   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                }
+
+             
     }
+    
+   
 
     .team{
         padding-top: 94px;

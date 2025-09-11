@@ -1,49 +1,57 @@
 .advantages{
     padding-top: 94px;
+
+    &__list{
+        display: flex;
+        gap: 30px;
+    }
+    &__item{
+        &::before{
+        content: "";
+        display: block;
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-color: $team-beground;
+        margin-bottom: 30px;
+        background-image: url(../photo/antena.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &:nth-child(2)::before{
+        background-image: url(../photo/ckolock.png);
+    }
+    
+    &:nth-child(3)::before{
+        background-image: url(../photo/diagram.png);
+    }
+    
+    &:nth-child(4)::before{
+        background-image: url(../photo/kosmos.png);
+    }
+}
+    
+
+    &__title{
+        color: $tekst-color;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        }
+
+        &__tekst{
+            color: $add-color;
+           font-size: 14px;
+           font-weight: 400;
+           line-height: 1.71; /* 171.429% */
+           letter-spacing: 0.42px;
+           }
 }
 
-.advantages-title{
-color: $tekst-color;
-font-size: 14px;
-font-weight: 700;
-line-height: 1.14;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-margin-bottom: 10px;
-}
 
-.advantages-tekst{
-    color: $add-color;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71; /* 171.429% */
-letter-spacing: 0.42px;
-}
-.advantages-list{
-    display: flex;
-    gap: 30px;
-}
 
-.advantages-item::before{
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: $team-beground;
-    margin-bottom: 30px;
-    background-image: url(../photo/antena.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.advantages-item:nth-child(2)::before{
-    background-image: url(../photo/ckolock.png);
-}
 
-.advantages-item:nth-child(3)::before{
-    background-image: url(../photo/diagram.png);
-}
-
-.advantages-item:nth-child(4)::before{
-    background-image: url(../photo/kosmos.png);
-}
