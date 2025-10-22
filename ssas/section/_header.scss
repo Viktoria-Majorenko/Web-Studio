@@ -1,7 +1,15 @@
 .header{
-    padding-top: 24px;
-    padding-bottom: 25px;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @media screen and (min-width: 768px) {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    @media screen and (min-width: 1200px){
+        padding-top:24px ;
+        padding-bottom: 25px;
+    }
     
    &__box{
         display: flex; 
@@ -11,27 +19,41 @@
     &__logo{
         color: $logo-color;
         font-family: "Raleway";
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 1.38;
         letter-spacing: 0.78px;
-        margin-right: 93px;
+        margin-right: auto;
+    @media screen and (min-width:768px){
+        margin-right: 87px;
+    }
+
+
+        @media screen and (min-width:1200px){
+            font-size: 26px;
+            margin-right: 93px;
+        }
     }
 
     &__web{
         color: $color-akcent;
-        font-family: "Raleway";
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 1.38;
-        letter-spacing: 0.78px;
+    
         }
 
         &__list{
-            display: flex;
-            gap: 50px;
+            display: none;
             margin-left: auto;
-            
+
+            @media screen and (min-width:768px) {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            @media screen and (min-width:1200px){
+                flex-direction: row;
+                gap: 30px;
+            }
         }
 
         &__item:last-child{
@@ -74,13 +96,17 @@
             }
 
             &__nav{
-    
-                display: flex;
-                gap: 20px;
-                
+                display: none;
+                @media screen and (min-width:768px){
+                    display: block;
+                }
             }
+
 }
+
+
 .nav{
+  
     &__list{
         display: flex;
         gap: 50px;
@@ -101,6 +127,7 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
         &:hover{
             color:$color-akcent;
             }

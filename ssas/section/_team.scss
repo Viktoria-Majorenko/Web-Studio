@@ -1,5 +1,12 @@
 .team{
     background-color: $team-beground;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+
+    @media screen and (min-width:1200px){
+        padding-top: 94px;
+        padding-bottom: 94px; 
+    }
 
     &__title{
         color: $tekst-color;
@@ -14,13 +21,33 @@
         &__list{
             display: flex;
             gap: 30px;
+            flex-direction: column;
+           
+            @media screen and (min-width:768px){
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
         }
 
         &__item{
             border-radius: 0px 0px 4px 4px;
             background: #FFF;
             box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+            flex-basis: 100%;
+           
+
+            @media screen and (min-width:480px){
+                flex-basis: 450px;
+            }
+
+            @media screen and (min-width:768px){
+                flex-basis: calc((100% - 30px) / 2);
+            }
         
+            @media screen and (min-width:1200px){
+                flex-basis: calc((100% - 90px) / 4);
+                
+            }
         }
 
         &__box{
@@ -46,6 +73,11 @@
                 font-weight: 400;
                 line-height: 1.18;
                 letter-spacing: 0.48px;  
+
+                @media screen and (min-width:480){
+                    width: 130px;
+                    
+                }
                 }
 
                 &__items{
@@ -90,11 +122,6 @@
     }
     
    
-
-    .team{
-        padding-top: 94px;
-        padding-bottom: 94px; 
-    }
 
     .icons{
         display: flex;
