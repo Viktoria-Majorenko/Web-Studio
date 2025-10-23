@@ -542,9 +542,38 @@ body {
   margin-bottom: 50px;
   flex-direction: column;
 }
+@media screen and (min-width: 480px) {
+  .clains__title {
+    padding-top: 29px;
+  }
+}
 .clains__list {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (min-width: 480px) {
+  .clains__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+    padding-bottom: 29px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clains__list {
+    width: 354px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clains__list {
+    width: 270px;
+    display: block;
+    flex-direction: column;
+  }
 }
 .clains__link {
   width: 170px;
